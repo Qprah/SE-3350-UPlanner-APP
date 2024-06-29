@@ -24,7 +24,7 @@ UPlanner is an Android application that simplifies degree and course planning fo
 - [YouTube Video](https://www.youtube.com/watch?v=8TsD6c_cBf8)
 
 ## Prerequisites and Planning Logic 
-We use an adjacency matrix to construct a directed graph (digraph) representing course prerequisite relations. This helps in calculating required and completed courses.
+Used an adjacency matrix data strucutre to construct a directed graph (digraph) representing course prerequisite relations. This helps in calculating required and completed courses for the program.
 
 ### Adjacency Matrix Example
 
@@ -70,12 +70,6 @@ UPlanner follows the GitHub Flow branching strategy:
 - Short-lived branches are used for specific tasks, e.g., `iteration1` for backend tasks and `iteration1f` for frontend tasks.
 
 # Future Improvements
-### Future Iterations and Features
-#### Haven't started:
-- Feature 5
-- Feature 6
-- Feature 7
-- Feature 9
 
 #### Started, but not finished:
 - Plan my degree
@@ -102,12 +96,13 @@ UPlanner follows the GitHub Flow branching strategy:
 
 ## Login and Signup
 ![Login](bbh-g4-a01-UPlanner/readme_content/ss1.0.png)
+
 ![Signup](bbh-g4-a01-UPlanner/readme_content/ss1.1.png)
 
 ## Landing Page
 ![Landing Page](bbh-g4-a01-UPlanner/readme_content/ss2.png)
 
-## Profile
+## User Profile
 ![Profile](bbh-g4-a01-UPlanner/readme_content/ss3.png)
 
 ## Course History
