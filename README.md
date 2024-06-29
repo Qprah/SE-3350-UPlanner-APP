@@ -16,9 +16,34 @@ UPlanner is an Android application that simplifies degree and course planning fo
    - View course descriptions and progress towards graduation.
 4. **View and post professor ratings**
    - View and post reviews of professors.
-   
-Sure! Here's the updated adjacency matrix representation using the course examples:
 
+## Architecture
+![Architecture](bbh-g4-a01-UPlanner/arch.png)
+
+### Demonstration Video:
+- [YouTube Video](https://www.youtube.com/watch?v=8TsD6c_cBf8)
+
+## Prerequisites and Planning Logic 
+We use an adjacency matrix to construct a directed graph (digraph) representing course prerequisite relations. This helps in calculating required and completed courses.
+
+### Adjacency Matrix Example
+
+Consider the following courses and their prerequisites:
+- COMP 1010 and COMP 1020 are prerequisites for COMP 2140.
+
+```python
+         COMP 1010  COMP 1020  COMP 2140
+COMP 1010     0          0          1
+COMP 1020     0          0          1
+COMP 2140     0          0          0
+```
+
+In this matrix:
+- The cell at (COMP 1010, COMP 2140) has a `1`, indicating COMP 1010 is a prerequisite for COMP 2140.
+- The cell at (COMP 1020, COMP 2140) has a `1`, indicating COMP 1020 is a prerequisite for COMP 2140.
+
+This adjacency matrix allows us to effectively manage and visualize course prerequisite relations and progress tracking.
+   
 ## Installation
 
 To install the application:
@@ -70,32 +95,3 @@ UPlanner follows the GitHub Flow branching strategy:
 - Share previous course experiences and material
 - Potential future job suggestion
 - Co-op program information support
-
-## Architecture
-![Architecture](arch.png)
-
-### Demonstration Video:
-- [YouTube Video](https://www.youtube.com/watch?v=8TsD6c_cBf8)
-
-## Prerequisites Representation
-We use an adjacency matrix to construct a directed graph (digraph) representing course prerequisite relations. This helps in calculating required and completed courses.
-
-### Adjacency Matrix Example
-
-Consider the following courses and their prerequisites:
-- COMP 1010 and COMP 1020 are prerequisites for COMP 2140.
-
-```python
-         COMP 1010  COMP 1020  COMP 2140
-COMP 1010     0          0          1
-COMP 1020     0          0          1
-COMP 2140     0          0          0
-```
-
-In this matrix:
-- The cell at (COMP 1010, COMP 2140) has a `1`, indicating COMP 1010 is a prerequisite for COMP 2140.
-- The cell at (COMP 1020, COMP 2140) has a `1`, indicating COMP 1020 is a prerequisite for COMP 2140.
-
-This adjacency matrix allows us to effectively manage and visualize course prerequisite relations and progress tracking.
-
-This adjacency matrix allows us to effectively manage and visualize course prerequisite relations and progress tracking.
