@@ -1,70 +1,101 @@
-# UPlanner
-
-## Project Documentation
-For markers:
-- [Vision Statement And Planning Documents](https://code.cs.umanitoba.ca/comp3350-winter2024/bug-bounty-hunter-a01-group4/-/blob/LogicIntegrationv2/VISION.md?ref_type=heads) 
+# UPlanner (Project Documentation)
 
 ## Login Using
-- email: user@myumanitoba.ca 
-- password: 12345678
-- or try signing up for a new account (constraint: the email needs to end with @myumanitoba.ca)
+- Email: user@myumanitoba.ca
+- Password: 12345678
+- Or sign up with an email ending with @myumanitoba.ca
 
-## Overview
-UPlanner is an Android application that simplifies degree and course planning and aims to empower university students.  We recognize the diverse backgrounds, schedules, financial positions and challenges each student brings and our mission to give them the means to take control of their educational path. 
-As of now, we offer a number of different features that pave the foundation for a versatile application for university students. 
-1. [Sign up and log in](https://code.cs.umanitoba.ca/comp3350-winter2024/bug-bounty-hunter-a01-group4/-/milestones/1#tab-issues)
-2. [Display and update profile information](https://code.cs.umanitoba.ca/comp3350-winter2024/bug-bounty-hunter-a01-group4/-/milestones/2#tab-issues)
-3. [View course history](https://code.cs.umanitoba.ca/comp3350-winter2024/bug-bounty-hunter-a01-group4/-/milestones/3#tab-issues)
-4. [View and post professor ratings](https://code.cs.umanitoba.ca/comp3350-winter2024/bug-bounty-hunter-a01-group4/-/milestones/8#tab-issues)
-
+## Overview and Usage
+UPlanner is an Android application that simplifies degree and course planning for university students. It offers features like:
+1. **Sign up and log in**
+   - Create a new account or log in with an existing account.
+2. **Display and update profile information**
+   - View and update personal information like GPA, major, etc.
+3. **View course history**
+   - See all taken courses and their grades.
+   - View course descriptions and progress towards graduation.
+4. **View and post professor ratings**
+   - View and post reviews of professors.
+   
+Sure! Here's the updated adjacency matrix representation using the course examples:
 
 ## Installation
-To install our application, make sure you're in the "Code" section of the projects github repository, then look for a link near top center named "releases". Click that, and the top release should be the most current compiled APK marked "Latest release" which you can install by clicking its link.
 
+To install the application:
 
-## Getting Started
-After installing our application, you have two options to begin using UPlaner:
-- Click on "Get Started" to create a new account.
-- Click on "Already Planning" to log into an existing account.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/yourrepository.git
+   cd yourrepository
+   ```
 
-Once you've made your selection, you'll be directed to the landing page. From there:
-- Click on the available buttons to navigate to their respective pages for features listed above.
-- For any additional features not listed above, you'll be directed to a landing page where you can enter your email. This way, you'll receive notifications when these new features are launched.
+2. **Build the APK**:
+   - Open the project in Android Studio.
+   - Build the APK file by selecting `Build > Build Bundle(s) / APK(s) > Build APK(s)`.
 
-Depending on the button chosen you'll be directed to a different page:
-- In "User Profile", you can see your avatar picture, personal information like GPA, major, credit progress etc. In this page you can also change your password, as well as sign out.
-- In "View Course History", you'll be able to see the courses you have taken and the grade associated. When you click on a course, you'll see the description of the corresponding course.
-- In "View and post professor ratings", you'll first see the professor menu page where all the professor names. From there, you can click "View Reviews" to further check out the reviews of that specific professor. Lastly, when you click "Send Review", you can enter your review for a professor, which will be sent to our team for evaluation.
-
-
-## Usage
-1. Sign up and log in
-   - Student can create a new account.
-   - Student can log in using an existing account.
-2. Display and update profile information
-   - Student can see all your personal information, like GPA, major, etc.
-   - Student can update their information (password)
-3. View course history
-   - Student can view all the courses they have taken.
-   - Student can see their progress of the courses they've taken and how many more they need to graduate.
-4. View and post professor ratings
-   - Student can view reviews of professors, with focuses on their teaching style and overall review.
-   - Student can post reviews of professors.
+3. **Install the APK**:
+   - Transfer the generated APK file to your Android device.
+   - Open the APK file on your Android device to install the application.
 
 
 ## Development
-Keep in mind that our group is following a [GitHub flow branching strategy](https://code.cs.umanitoba.ca/comp3350-winter2024/bug-bounty-hunter-a01-group4/-/wikis/Branching-Strategy-Document).
+UPlanner follows the GitHub Flow branching strategy:
+- **Main Branch**: Represents the production-ready version.
+- **Feature Branches**: Created off the main branch for new features or enhancements, e.g., `feature1-GUI` for sign-up and log-in features.
+- Short-lived branches are used for specific tasks, e.g., `iteration1` for backend tasks and `iteration1f` for frontend tasks.
 
-## Future Improvements
-- [Future plans](https://code.cs.umanitoba.ca/comp3350-winter2024/bug-bounty-hunter-a01-group4/-/milestones/12#tab-issues)
+# Future Improvements
+### Future Iterations and Features
+#### Haven't started:
+- Feature 5
+- Feature 6
+- Feature 7
+- Feature 9
 
-## Presentation Website
-To visit the website follow the given steps:
-- go into the Website folder
-- unzip the uplannerv2-files.zip 
-- open the uplannerv2-files folder 
-- open the index.html file locally 
-- the website should be visible in your browser
- 
-### In case the video on the website doesn't play, visit this link 
-- https://www.youtube.com/watch?v=8TsD6c_cBf8
+#### Started, but not finished:
+- Plan my degree
+- Link logic to UI
+- Feature 4
+
+### User Stories for the Future
+- Course Suggestion
+- Organize available classes based on user's schedule
+- Get support for general questions
+- Book an appointment with an academic advisor
+- See conversation history
+- Financial support resources for students
+- Degree estimated tuition
+- View expected course load
+- View course materials and difficulty level
+- Share previous course experiences and material
+- Potential future job suggestion
+- Co-op program information support
+
+## Architecture
+![Architecture](arch.png)
+
+### Demonstration Video:
+- [YouTube Video](https://www.youtube.com/watch?v=8TsD6c_cBf8)
+
+## Prerequisites Representation
+We use an adjacency matrix to construct a directed graph (digraph) representing course prerequisite relations. This helps in calculating required and completed courses.
+
+### Adjacency Matrix Example
+
+Consider the following courses and their prerequisites:
+- COMP 1010 and COMP 1020 are prerequisites for COMP 2140.
+
+```python
+         COMP 1010  COMP 1020  COMP 2140
+COMP 1010     0          0          1
+COMP 1020     0          0          1
+COMP 2140     0          0          0
+```
+
+In this matrix:
+- The cell at (COMP 1010, COMP 2140) has a `1`, indicating COMP 1010 is a prerequisite for COMP 2140.
+- The cell at (COMP 1020, COMP 2140) has a `1`, indicating COMP 1020 is a prerequisite for COMP 2140.
+
+This adjacency matrix allows us to effectively manage and visualize course prerequisite relations and progress tracking.
+
+This adjacency matrix allows us to effectively manage and visualize course prerequisite relations and progress tracking.
