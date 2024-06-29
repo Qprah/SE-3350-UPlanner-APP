@@ -97,8 +97,12 @@ UPlanner follows the GitHub Flow branching strategy:
 - Co-op program information support
 
 
-## Login
-![Login](bbh-g4-a01-UPlanner/readme_content/ss1.png)
+## Get Started
+![Get Started](bbh-g4-a01-UPlanner/readme_content/ss1.png)
+
+## Login and Signup
+![Login](bbh-g4-a01-UPlanner/readme_content/ss1.0.png)
+![Signup](bbh-g4-a01-UPlanner/readme_content/ss1.1.png)
 
 ## Landing Page
 ![Landing Page](bbh-g4-a01-UPlanner/readme_content/ss2.png)
