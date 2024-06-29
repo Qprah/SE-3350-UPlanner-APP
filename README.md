@@ -5,7 +5,7 @@
 - Password: 12345678
 - Or sign up with an email ending with @myumanitoba.ca
 
-## Overview and Usage
+## Overview and Usage (App screenshots at bottom)
 UPlanner is an Android application that simplifies degree and course planning for university students. It offers features like:
 1. **Sign up and log in**
    - Create a new account or log in with an existing account.
@@ -18,7 +18,7 @@ UPlanner is an Android application that simplifies degree and course planning fo
    - View and post reviews of professors.
 
 ## Architecture
-![Architecture](bbh-g4-a01-UPlanner/arch.png)
+![Architecture](bbh-g4-a01-UPlanner/readme_content/arch.png)
 
 ### Demonstration Video:
 - [YouTube Video](https://www.youtube.com/watch?v=8TsD6c_cBf8)
@@ -95,3 +95,22 @@ UPlanner follows the GitHub Flow branching strategy:
 - Share previous course experiences and material
 - Potential future job suggestion
 - Co-op program information support
+
+
+## Login
+![Login](bbh-g4-a01-UPlanner/readme_content/ss1.png)
+
+## Landing Page
+![Landing Page](bbh-g4-a01-UPlanner/readme_content/ss2.png)
+
+## Profile
+![Profile](bbh-g4-a01-UPlanner/readme_content/ss3.png)
+
+## Course History
+![Course History](bbh-g4-a01-UPlanner/readme_content/ss4.png)
+
+## Professor Reviews
+![Professor Reviews](bbh-g4-a01-UPlanner/readme_content/ss5.png)
+
+## Post Review
+![Post Review](bbh-g4-a01-UPlanner/readme_content/ss6.png)
