@@ -1,0 +1,5 @@
+# Iteration 2 Retrospective
+
+In this iteration, we focused on having more face-to-face meetings and carefully planning our tasks. While we saw improvements in these areas, there's no online evidence of our progress since much of our communication happened over phone calls. 
+
+In Iteration 2, our performance suffered mainly because we made significant changes across three different branches, causing complicated issues when merging them together. Since we weren't aware of the code written by developers in other branches, we couldn't combine all the completed features into one development branch. Although we fulfilled most of our commitments for Iteration 2 and everything was functional, the tasks were spread across multiple branches and couldn't be merged in time to create a single, functional branch. 

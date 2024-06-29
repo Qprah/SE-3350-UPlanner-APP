@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_background_shape">
+
+    <TextView android:id="@+id/professor1_main_title"
+        android:textSize="60sp"
+        android:textColor="@color/main_text_color"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_width="500dp"
+        android:layout_height="70.5dp"
+        android:textStyle="bold"
+        android:text="@string/professor_1_string" />
+
+    <RatingBar
+        android:id="@+id/professor1_rating_bar"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="135dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:theme="@style/RatingBar"
+        android:rating="5" />
+
+    <LinearLayout android:id="@+id/p1_review_list"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="980dp"
+        android:layout_height="450dp"
+        android:orientation="vertical">
+
+        <RelativeLayout android:id="@+id/p1_individual1_review"
+            android:layout_centerHorizontal="true"
+            android:layout_width="980dp"
+            android:layout_height="200dp"
+            android:background="@drawable/bg_second_background_shape"
+            >
+
+            <TextView android:id="@+id/p1_individual1_teaching_style"
+                android:textSize="30sp"
+                android:textColor="@color/main_text_color"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="410dp"
+                android:layout_width="750dp"
+                android:layout_height="50dp"
+                android:text="@string/p1_individual1_teaching_style_string" />
+
+            <TextView android:id="@+id/p1_individual1_main_review"
+                android:textSize="30sp"
+                android:textColor="@color/main_text_color"
+                android:layout_marginTop="75dp"
+                android:layout_marginStart="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/p1_individual1_review_string" />
+
+            <RatingBar
+                android:id="@+id/p1_individual1_rating_bar"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:theme="@style/RatingBar"
+                android:rating="5" />
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/p1_individual2_review"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="980dp"
+            android:layout_height="200dp"
+            android:background="@drawable/bg_second_background_shape"
+            >
+
+            <TextView android:id="@+id/p1_individual2_teaching_style"
+                android:textSize="30sp"
+                android:textColor="@color/main_text_color"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="410dp"
+                android:layout_width="750dp"
+                android:layout_height="50dp"
+                android:text="@string/p1_individual2_teaching_style_string" />
+
+            <TextView android:id="@+id/p1_individual2_main_review"
+                android:textSize="30sp"
+                android:textColor="@color/main_text_color"
+                android:layout_marginTop="75dp"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:text="@string/p1_individual2_review_string" />
+
+            <RatingBar
+                android:id="@+id/p1_individual2_rating_bar"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:theme="@style/RatingBar"
+                android:rating="4.5" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- Send review button -->
+    <Button
+        android:id="@+id/send_review_p1_button"
+        android:layout_marginTop="695dp"
+        android:layout_marginStart="880dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/main_text_color"
+        android:text="@string/send_review_string"
+        android:textAllCaps="false"
+        />
+
+    <!--Back Button-->
+    <Button
+        android:id="@+id/back_space_professor_rating1"
+        android:layout_marginTop="76dp"
+        android:layout_marginStart="67dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_main_background_shape"
+        android:drawableStart="@drawable/back_space"
+        android:contentDescription="back_space_in_course_schedule"
+        android:text=""
+        android:onClick="onButtonClick"/>
+</RelativeLayout>

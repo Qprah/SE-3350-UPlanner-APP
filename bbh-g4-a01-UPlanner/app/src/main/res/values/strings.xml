@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">UPlanner</string>
+
+	<!-- welcome_page strings -->
+	<string name="welcome_message_string">Simplify your course planning with </string>
+	<string name="uplanner_string">UPlanner</string>
+	<string name="get_started_text_string">Get Started</string>
+	<string name="log_in_hyperlink_ek2_string">Already Planning?</string>
+
+	<!-- create_an_account_page strings -->
+	<string name="create_an_account__string">Create an Account!</string>
+	<string name="password_label_string">Password</string>
+	<string name="enter_your_password_string">Enter your password</string>
+	<string name="password_label_ek1_string">Confirm Password</string>
+	<string name="enter_your_password_ek1_string">Confirm Password</string>
+	<string name="email_label_string">University Email</string>
+	<string name="enter_your_email_string">Enter your university email</string>
+	<string name="fullname_label_string">Full Name</string>
+	<string name="enter_your_fullname_string">Enter your full name</string>
+	<string name="register_string">Register</string>
+	<string name="create_an_string">Create an</string>
+	<string name="account__string">Account!</string>
+
+	<!-- under_construction strings -->
+	<string name="get_notified_string">Get Notified</string>
+	<string name="enter_your_email_uc_string">Enter your email</string>
+
+	<!-- login_page strings -->
+	<string name="log_in__string">Login</string>
+	<string name="welcome_back__string">Welcome Back!</string>
+	<string name="forgot_your_password__string">Forgot your password?</string>
+	<string name="back__string">Back!</string>
+	<string name="welcome_string">Welcome</string>
+
+	<!-- main_page strings -->
+	<string name="user_profile_sub_text_string">View and change personal information</string>
+	<string name="professor_ratings_sub_text_string">Find and post professor reviews</string>
+	<string name="course_ratings_sub_text_string">Find and post course reviews</string>
+	<string name="job_information_sub_text_string">Find estimate post graduate salary and job opportunies</string>
+	<string name="tuition_and_funds_sub_text_string">Calculate tuition and find student aid</string>
+	<string name="course_history_sub_text_string">View your course history</string>
+	<string name="academic_support_sub_text_string">Chat with a bot for advise or set an appointment with an advisor</string>
+	<string name="plan_my_degree_sub_text_string">Plan out your degree according to your needs</string>
+	<string name="user_profile_ek2_string">User Profile</string>
+	<string name="course_history_ek2_string">Course History</string>
+	<string name="plan_my_degree_ek4_string">Plan My Degree</string>
+	<string name="job_information_ek3_string">Job Information</string>
+	<string name="course_ratings_ek2_string">Course Ratings</string>
+	<string name="academic_support_ek2_string">Get Academic Support</string>
+	<string name="tuition_and_funds_ek2_string">Tuition &amp; Funds</string>
+	<string name="professor_ratings_ek2_string">Professor Ratings</string>
+
+	<!-- user_profile_page strings -->
+	<string name="my_profile_title_string">My Profile</string>
+	<string name="my_profile_header_string">Student Number:\n\nFaculty:\n\nMajor:\n\nYear: </string>
+
+	<string name="address_answer">123 Anywhere St. </string>
+	<string name="stuNum">0000000 </string>
+	<string name="faculty_answer">Science </string>
+	<string name="major_answer">Computer Science </string>
+	<string name="sign_out">Sign Out</string>
+	<string name="change_password">Enter new password</string>
+	<string name="change_password_button">Change</string>
+
+	<string name="credit_hours_title_string">Credit Hours</string>
+	<string name="credit_hours_headers">Valid Credit Hours  : \nRemaining                    : \n\nRequired Minimum :</string>
+	<string name="min_answer">60</string>
+	<string name="my_performance_title_string">My Performance</string>
+	<string name="my_performance_header">GPA:</string>
+
+	<!-- course_history_page strings -->
+	<string name="course_history_title_string">Student Course History</string>
+	<string name="academic"> An introduction to the theory and practice of real-time systems. Topics include the design of real-time systems, scheduling, event based processing, and real-time control. This course may not be held for credit if a student has previously completed both of ECE 4240 and ECE 3760.</string>
+
+	<!-- professor_rating strings -->
+	<string name="course_rating_string">Professor Reviews</string>
+	<string name="professor_1_string">Lauren Himbeault</string>
+	<string name="view_review_string">View Reviews</string>
+	<string name="professor_2_string">Rob Guderian</string>
+	<string name="professor_3_string">Michael Zapp</string>
+
+	<!-- p1_individual_rating strings -->
+	<string name="p1_individual1_review_string">COMP 1010 scared me but she helped me get back on my feet.\nMade me love coding and algorithms.</string>
+	<string name="p1_individual1_teaching_style_string">Teaching style: Hands on, Provides notes</string>
+	<string name="p1_individual2_review_string">The material is hard, but it is clear that she knows each topic inside and out. More importantly, she puts a great deal of time and thought into how to present each topic.</string>
+	<string name="p1_individual2_teaching_style_string">Teaching style: Visual, Provides notes</string>
+	<string name="send_review_string">Send A Review</string>
+
+	<!-- p2_individual_rating strings -->
+	<string name="p2_individual1_review_string">Though not in his class, I had to watch his pre-recorded lectures and visited his office hours. He is very caring and listens to students. The assignments need a lot of time.</string>
+	<string name="p2_individual1_teaching_style_string">Teaching style: Verbal explanations</string>
+	<string name="p2_individual2_review_string">He is very approachable and happy to clarify any doubts you may have about your project, so use him as a resource to your advantage!</string>
+	<string name="p2_individual2_teaching_style_string">Teaching style: Good office hours</string>
+
+	<!-- p3_individual_rating strings -->
+	<string name="p3_individual1_review_string">He is there to make your life impossible! Not helpful, no notes provided and very few examples provided for his assignments.</string>
+	<string name="p3_individual1_teaching_style_string">Teaching style: Verbal explanations</string>
+	<string name="p3_individual2_review_string">You will either love him or hate him.</string>
+	<string name="p3_individual2_teaching_style_string">Teaching style: Self learn</string>
+
+	<!-- pop up strings -->
+	<string name="enter_professor_string">Enter the professors name</string>
+	<string name="professor_label_string">Professor Name:</string>
+	<string name="teaching_label_string">Teaching Style:</string>
+	<string name="enter_teaching_style_string">Enter the professors teaching style</string>
+	<string name="enter_main_review_string">Enter your review</string>
+	<string name="review_label_string">Review:</string>
+	<string name="enter_rating_string">Enter rating:</string>
+	<string name="rating_label_string">Rating (out of 5):</string>
+
+	<!-- course_schedule_page strings -->
+	<string name="course_schedule_string">Plan My Course Schedule</string>
+	<string name="change_schedule">Change Schedule</string>
+	<string name="monday">Monday</string>
+	<string name="tuesday">Tuesday</string>
+	<string name="wednesday">Wednesday</string>
+	<string name="thursday">Thursday</string>
+	<string name="friday">Friday</string>
+	<string name="mwf1_string">8:30AM-9:20AM</string>
+	<string name="mwf2_string">9:30AM-10:20AM</string>
+	<string name="mwf3_string">10:30AM-11:20AM</string>
+	<string name="mwf4_string">11:30AM-12:20AM</string>
+	<string name="mwf5_string">12:30PM-1:20PM</string>
+	<string name="mwf6_string">1:30PM-2:20PM</string>
+	<string name="mwf7_string">2:30PM-3:20PM</string>
+	<string name="tr1_string">8:30AM-9:45PM</string>
+	<string name="tr2_string">10:00AM-11:15PM</string>
+	<string name="tr3_string">11:30AM-12:45PM</string>
+	<string name="tr4_string">1:00PM-2:15PM</string>
+	<string name="tr5_string">2:30PM-3:45PM</string>
+    <string name="no_courses_message">Courses not available. \n Student has not completed any courses yet.</string>
+    <string name="n_a">n/a</string>
+</resources>

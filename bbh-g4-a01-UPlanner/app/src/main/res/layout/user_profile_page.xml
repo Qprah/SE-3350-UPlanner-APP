@@ -1,0 +1,319 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_background">
+
+    <!-- My Profile Section -->
+    <RelativeLayout
+        android:id="@+id/my_profile_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/bg_second_background_shape">
+
+        <!-- My Profile Section Background-->
+
+        <!-- My Profile Section Avatar-->
+
+        <View
+            android:id="@+id/my_profile_bg"
+            android:layout_width="670dp"
+            android:layout_height="700dp"
+            android:background="@drawable/bg_second_background_shape"
+            android:backgroundTint="@color/bg_main_color2" />
+
+        <View
+            android:id="@+id/my_profile_avatar"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/user_profile_avatar" />
+
+        <!-- Student Name -->
+        <TextView
+            android:id="@+id/student_name_answer"
+            android:layout_width="600dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginTop="290dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/main_text_color"
+            android:textSize="45sp" />
+
+        <!-- Headers -->
+        <TextView
+            android:id="@+id/user_profile_headers"
+            android:layout_width="370dp"
+            android:layout_height="270dp"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginStart="145dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="420dp"
+            android:gravity="left"
+            android:text="@string/my_profile_header_string"
+            android:textColor="@color/main_text_color"
+            android:textSize="25sp" />
+
+        <!-- Student Number -->
+        <TextView
+            android:id="@+id/student_num_answer"
+            android:layout_width="330dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="421dp"
+            android:gravity="left"
+            android:textColor="@color/main_text_color"
+            android:textSize="25sp" />
+
+        <!-- Faculty -->
+        <TextView
+            android:id="@+id/faculty_answer"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="479dp"
+            android:gravity="left"
+            android:text="@string/faculty_answer"
+            android:textColor="@color/main_text_color"
+            android:textSize="25sp" />
+
+        <!-- Major -->
+        <TextView
+            android:id="@+id/major_answer"
+            android:layout_width="210dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="537dp"
+            android:gravity="left"
+            android:text="@string/major_answer"
+            android:textColor="@color/main_text_color"
+            android:textSize="25sp" />
+
+        <!-- Year -->
+        <TextView
+            android:id="@+id/year_answer"
+            android:layout_width="210dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="595dp"
+            android:gravity="left"
+            android:text="2"
+            android:textColor="@color/main_text_color"
+            android:textSize="25sp" />
+
+        <!-- Change Password -->
+        <Button
+            android:id="@+id/change_password_button"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="400dp"
+            android:layout_marginTop="365dp"
+            android:background="@drawable/secondary_button_shape"
+            android:backgroundTint="@color/hint_input_color"
+            android:text="@string/change_password_button"
+            android:textColor="@color/main_text_color" />
+
+        <EditText
+            android:id="@+id/change_password_input"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="365dp"
+            android:background="@drawable/input_box_shape"
+            android:backgroundTint="@color/black"
+            android:hint="@string/change_password"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/hint_input_color"
+            />
+
+        <!-- Sign Out Button -->
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="500dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/secondary_button_shape"
+            android:backgroundTint="@color/alternate_bg"
+            android:hapticFeedbackEnabled="true"
+            android:text="@string/sign_out"
+            android:textAllCaps="true"
+            android:textColor="@color/main_text_color"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <!-- Credit Hours Section -->
+    <RelativeLayout
+        android:id="@+id/credit_hours_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="746dp"
+        android:layout_marginTop="52dp">
+
+        <!-- Credit Hours Section Background-->
+        <View
+            android:id="@+id/credit_hours_bg"
+            android:layout_width="490dp"
+            android:layout_height="342dp"
+            android:backgroundTint="@color/bg_main_color2"
+            android:background="@drawable/bg_second_background" />
+
+        <!-- Credit Hours Section Title -->
+        <TextView
+            android:id="@+id/credit_hours_title"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="@string/credit_hours_title_string"
+            android:textAllCaps="true"
+            android:textColor="@color/main_text_color"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+        <!-- Headers -->
+        <TextView
+            android:id="@+id/credit_hours_headers"
+            android:layout_width="325dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="165dp"
+            android:gravity="left"
+            android:text="@string/credit_hours_headers"
+            android:textColor="@color/main_text_color"
+            android:textSize="25sp"/>
+
+        <!-- Credit Hours Section Valid -->
+        <TextView
+            android:id="@+id/valid_credit_hours_answer"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="165dp"
+            android:gravity="left"
+            android:textColor="@color/main_text_color"
+            android:textSize="25sp" />
+
+        <!-- Credit Hours Section Remaining-->
+        <TextView
+            android:id="@+id/remaining_answer"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="195dp"
+            android:gravity="left"
+            android:textColor="@color/main_text_color"
+            android:textSize="25sp" />
+
+        <!-- Credit Hours Section Minimum -->
+        <TextView
+            android:id="@+id/min_answer"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="252dp"
+            android:gravity="left"
+            android:text="@string/min_answer"
+            android:textColor="@color/main_text_color"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <!-- My Performance Section -->
+    <RelativeLayout
+        android:id="@+id/my_performance_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="746dp"
+        android:layout_marginTop="420dp">
+
+        <!-- My Performance Section Background -->
+        <View
+            android:id="@+id/my_performance_bg"
+            android:layout_width="490dp"
+            android:layout_height="334dp"
+            android:backgroundTint="@color/bg_main_color2"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/bg_second_background" />
+
+        <!-- My Performance Section Title-->
+        <TextView
+            android:id="@+id/my_performance_title"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="@string/my_performance_title_string"
+            android:textColor="@color/main_text_color"
+            android:textAllCaps="true"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+
+        <!-- My Performance Section Headers-->
+        <TextView
+            android:id="@+id/my_performance_headers"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="240dp"
+            android:gravity="left"
+            android:text="@string/my_performance_header"
+            android:textColor="@color/main_text_color"
+            android:textSize="25sp" />
+        <!-- GPA -->
+        <TextView
+            android:id="@+id/gpa_answer"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="240dp"
+            android:gravity="left"
+            android:textColor="@color/main_text_color"
+            android:textSize="25sp"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="400dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:progressDrawable="@drawable/custom_progress_bar"/>
+
+    </RelativeLayout>
+
+    <!--Back Button-->
+    <Button
+        android:id="@+id/back_space_user_profile"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/bg_main_color2"
+        android:contentDescription="back_space_in_user_profile"
+        android:drawableStart="@drawable/back_space"
+        android:onClick="onButtonClick" />
+</RelativeLayout>

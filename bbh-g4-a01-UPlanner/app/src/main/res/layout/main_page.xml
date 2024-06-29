@@ -1,0 +1,380 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg_main_background">
+
+	<!-- Main page background-->
+	<ImageView
+		android:id="@+id/main_page_"
+		android:layout_width="1280dp"
+		android:layout_height="800dp"
+		android:contentDescription="main_page"
+		android:src="@drawable/bg_main_background" />
+
+	<!-- Main page background picture-->
+	<ImageView android:id="@+id/picture_background"
+		android:background="@drawable/picture_background"
+		android:layout_width="1280dp"
+		android:layout_height="218dp" />
+
+	<!-- User Profile button -->
+	<Button
+		android:id="@+id/user_profile_button"
+		android:layout_marginTop="410dp"
+		android:layout_marginStart="102dp"
+		android:layout_width="210dp"
+		android:layout_height="40dp"
+		android:background="@drawable/button_shape"
+		android:textStyle="bold"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:textSize="17sp"
+		android:textColor="@color/main_text_color"
+		android:text="@string/user_profile_ek2_string"
+		android:textAllCaps="false"/>
+
+	<!-- User profile component -->
+	<RelativeLayout android:id="@+id/user_profile"
+		android:layout_marginTop="283dp"
+		android:layout_marginStart="81dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+
+		<TextView android:id="@+id/user_profile_sub_text"
+			android:layout_gravity="center_horizontal|center"
+			android:gravity="center"
+			android:textSize="12sp"
+			android:textColor="@color/main_text_color"
+			android:layout_marginLeft="10dp"
+			android:layout_marginTop="173dp"
+			android:layout_width="231.2dp"
+			android:layout_height="36.67dp"
+			android:text="@string/user_profile_sub_text_string"
+			/>
+
+		<ImageView android:id="@+id/user_profile_picture"
+			android:src="@drawable/user_profile_picture"
+			android:contentDescription="user_profile_picture"
+			android:layout_marginStart="73dp"
+			android:layout_marginTop="10dp"
+			android:layout_width="104dp"
+			android:layout_height="114dp" />
+	</RelativeLayout>
+
+	<!-- Professor Ratings button -->
+	<Button
+		android:id="@+id/professor_ratings_button"
+		android:layout_marginTop="652dp"
+		android:layout_marginStart="392dp"
+		android:layout_width="210dp"
+		android:layout_height="40dp"
+		android:background="@drawable/button_shape"
+		android:textStyle="bold"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:textSize="17sp"
+		android:textColor="@color/main_text_color"
+		android:text="@string/professor_ratings_ek2_string"
+		android:textAllCaps="false"/>
+
+	<!-- Professor Ratings component -->
+	<RelativeLayout android:id="@+id/professor_ratings"
+		android:layout_marginTop="525dp"
+		android:layout_marginStart="372dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+
+		<ImageView android:id="@+id/professor_ratings_picture"
+			android:src="@drawable/professor_ratings_picture"
+			android:contentDescription="professor_ratings_picture"
+			android:layout_marginStart="70dp"
+			android:layout_marginTop="10dp"
+			android:layout_width="112dp"
+			android:layout_height="117.16dp" />
+
+		<TextView android:id="@+id/professor_ratings_sub_text"
+			android:layout_gravity="center_horizontal|center"
+			android:gravity="center"
+			android:textSize="12sp"
+			android:textColor="@color/main_text_color"
+			android:layout_marginLeft="18dp"
+			android:layout_marginTop="172dp"
+			android:layout_width="215.2dp"
+			android:layout_height="19.94dp"
+			android:text="@string/professor_ratings_sub_text_string"
+			/>
+	</RelativeLayout>
+
+	<!-- Course Ratings button -->
+	<Button
+		android:id="@+id/course_ratings_button"
+		android:layout_marginTop="652dp"
+		android:layout_marginStart="684dp"
+		android:layout_width="210dp"
+		android:layout_height="40dp"
+		android:background="@drawable/button_shape"
+		android:textStyle="bold"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:textSize="17sp"
+		android:textColor="@color/main_text_color"
+		android:text="@string/course_ratings_ek2_string"
+		android:textAllCaps="false"/>
+
+	<!-- Course Ratings component -->
+	<RelativeLayout android:id="@+id/course_ratings"
+		android:layout_marginTop="525dp"
+		android:layout_marginStart="663dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+
+		<ImageView android:id="@+id/course_ratings_picture"
+			android:src="@drawable/course_ratings_picture"
+			android:contentDescription="course_ratings_picture"
+			android:layout_marginStart="79dp"
+			android:layout_marginTop="18dp"
+			android:layout_width="92dp"
+			android:layout_height="102.65dp" />
+
+		<TextView android:id="@+id/course_ratings_sub_text"
+			android:layout_gravity="center_horizontal|center"
+			android:gravity="center"
+			android:textSize="12sp"
+			android:textColor="@color/main_text_color"
+			android:layout_marginLeft="19dp"
+			android:layout_marginTop="172dp"
+			android:layout_width="215.2dp"
+			android:layout_height="19.94dp"
+			android:text="@string/course_ratings_sub_text_string"
+			/>
+	</RelativeLayout>
+
+	<!-- Job Information button -->
+	<Button
+		android:id="@+id/job_information_button"
+		android:layout_marginTop="652dp"
+		android:layout_marginStart="975dp"
+		android:layout_width="210dp"
+		android:layout_height="40dp"
+		android:background="@drawable/button_shape"
+		android:textStyle="bold"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:textSize="17sp"
+		android:textColor="@color/main_text_color"
+		android:text="@string/job_information_ek3_string"
+		android:textAllCaps="false"/>
+
+	<!-- Job Information component -->
+	<RelativeLayout android:id="@+id/job_information"
+		android:layout_marginTop="525dp"
+		android:layout_marginStart="954dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+
+		<ImageView android:id="@+id/job_information_picture"
+			android:src="@drawable/job_information_picture"
+			android:contentDescription="job_information_picture"
+			android:layout_marginStart="40dp"
+			android:layout_marginTop="18dp"
+			android:layout_width="165dp"
+			android:layout_height="105dp" />
+
+		<TextView android:id="@+id/job_information_sub_text"
+			android:layout_gravity="center_horizontal|center"
+			android:gravity="center"
+			android:textSize="12sp"
+			android:textColor="@color/main_text_color"
+			android:layout_marginLeft="18dp"
+			android:layout_marginTop="172dp"
+			android:layout_width="215.2dp"
+			android:layout_height="36.67dp"
+			android:text="@string/job_information_sub_text_string"
+			/>
+	</RelativeLayout>
+
+	<!-- Tuition and Funds button -->
+	<Button
+		android:id="@+id/tuition_and_funds_button"
+		android:layout_marginTop="407dp"
+		android:layout_marginStart="975dp"
+		android:layout_width="210dp"
+		android:layout_height="40dp"
+		android:background="@drawable/button_shape"
+		android:textStyle="bold"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:textSize="17sp"
+		android:textColor="@color/main_text_color"
+		android:text="@string/tuition_and_funds_ek2_string"
+		android:textAllCaps="false"/>
+
+	<!-- Tuition and Funds component -->
+	<RelativeLayout android:id="@+id/tuition_and_funds"
+		android:layout_marginTop="283dp"
+		android:layout_marginStart="954dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+
+		<TextView android:id="@+id/tuition_and_funds_sub_text"
+			android:layout_gravity="center_horizontal|center"
+			android:gravity="center"
+			android:textSize="12sp"
+			android:textColor="@color/main_text_color"
+			android:layout_marginLeft="19dp"
+			android:layout_marginTop="173dp"
+			android:layout_width="216.2dp"
+			android:layout_height="36.67dp"
+			android:text="@string/tuition_and_funds_sub_text_string"
+			/>
+
+		<ImageView android:id="@+id/tuiton_and_funds_picture"
+			android:src="@drawable/tuiton_and_funds_picture"
+			android:contentDescription="tuiton_and_funds_picture"
+			android:layout_marginStart="41dp"
+			android:layout_marginTop="18dp"
+			android:layout_width="165dp"
+			android:layout_height="98.19dp" />
+	</RelativeLayout>
+
+	<!--Course History button -->
+	<Button
+		android:id="@+id/course_history_button"
+		android:layout_marginTop="410dp"
+		android:layout_marginStart="391dp"
+		android:layout_width="210dp"
+		android:layout_height="40dp"
+		android:background="@drawable/button_shape"
+		android:textStyle="bold"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:textSize="17sp"
+		android:textColor="@color/main_text_color"
+		android:text="@string/course_history_ek2_string"
+		android:textAllCaps="false"/>
+
+	<!--Course History component -->
+	<RelativeLayout android:id="@+id/course_history"
+		android:layout_marginTop="283dp"
+		android:layout_marginStart="372dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+
+		<ImageView android:id="@+id/course_history_picture"
+			android:src="@drawable/course_history_picture"
+			android:contentDescription="course_history_picture"
+			android:layout_marginStart="75dp"
+			android:layout_marginTop="19dp"
+			android:layout_width="102dp"
+			android:layout_height="98.19dp" />
+
+		<TextView android:id="@+id/course_history_sub_text"
+			android:layout_gravity="center_horizontal|center"
+			android:gravity="center"
+			android:textSize="12sp"
+			android:textColor="@color/main_text_color"
+			android:layout_marginLeft="11dp"
+			android:layout_marginTop="173dp"
+			android:layout_width="231.2dp"
+			android:layout_height="19.94dp"
+			android:text="@string/course_history_sub_text_string"
+			/>
+
+	</RelativeLayout>
+
+	<!--Academic Support button -->
+	<Button
+		android:id="@+id/academic_support_button"
+		android:layout_marginTop="410dp"
+		android:layout_marginStart="684dp"
+		android:layout_width="210dp"
+		android:layout_height="40dp"
+		android:background="@drawable/button_shape"
+		android:textStyle="bold"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:textSize="16sp"
+		android:textColor="@color/main_text_color"
+		android:text="@string/academic_support_ek2_string"
+		android:textAllCaps="false"/>
+
+	<!--Academic Support component -->
+	<RelativeLayout android:id="@+id/academic_support"
+		android:layout_marginTop="283dp"
+		android:layout_marginStart="663dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+
+		<ImageView android:id="@+id/academic_support_picture"
+			android:src="@drawable/academic_support_picture"
+			android:contentDescription="academic_support_picture"
+			android:layout_marginStart="75dp"
+			android:layout_marginTop="16dp"
+			android:layout_width="100dp"
+			android:layout_height="100dp" />
+
+		<TextView android:id="@+id/academic_support_sub_text"
+			android:layout_gravity="center_horizontal|center"
+			android:gravity="center"
+			android:textSize="12sp"
+			android:textColor="@color/main_text_color"
+			android:layout_marginLeft="19dp"
+			android:layout_marginTop="173dp"
+			android:layout_width="215.2dp"
+			android:layout_height="36.67dp"
+			android:text="@string/academic_support_sub_text_string"
+			/>
+	</RelativeLayout>
+
+	<!--Plan My Degree button -->
+	<Button
+		android:id="@+id/plan_my_degree_button"
+		android:layout_marginTop="652dp"
+		android:layout_marginStart="102dp"
+		android:layout_width="210dp"
+		android:layout_height="40dp"
+		android:background="@drawable/button_shape"
+		android:textStyle="bold"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:textSize="17sp"
+		android:textColor="@color/main_text_color"
+		android:text="@string/plan_my_degree_ek4_string"
+		android:textAllCaps="false"/>
+
+	<!--Plan My Degree component -->
+	<RelativeLayout android:id="@+id/plan_my_degree"
+		android:layout_marginTop="525dp"
+		android:layout_marginStart="82dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+
+		<TextView android:id="@+id/plan_my_degree_sub_text"
+			android:layout_gravity="center_horizontal|center"
+			android:gravity="center"
+			android:textSize="12sp"
+			android:textColor="@color/main_text_color"
+			android:layout_marginLeft="20dp"
+			android:layout_marginTop="172dp"
+			android:layout_width="215.2dp"
+			android:layout_height="36.67dp"
+			android:text="@string/plan_my_degree_sub_text_string"
+			/>
+
+		<ImageView android:id="@+id/plan_my_degree_picture"
+			android:src="@drawable/plan_my_degree_picture"
+			android:contentDescription="plan_my_degree_picture"
+			android:layout_marginStart="60dp"
+			android:layout_marginTop="4dp"
+			android:layout_width="130dp"
+			android:layout_height="129.43dp" />
+	</RelativeLayout>
+</RelativeLayout>

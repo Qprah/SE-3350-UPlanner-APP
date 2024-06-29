@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.example.uplanner" >
+
+	<uses-permission android:name="android.permission.INTERNET" />
+
+	<!--allows for the user to read file from external storage -->
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+		android:maxSdkVersion="32" />
+
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:theme="@style/AppTheme"
+		android:label="UPlanner" >
+		<!-- For the whole app-->
+		<activity
+		android:name=".presentation.WelcomePageActivity"
+		android:screenOrientation="landscape"
+		android:configChanges="orientation|keyboardHidden|screenSize"
+		android:label="@string/app_name"
+		android:exported="true"  >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<!-- activity added for the create an account page  -->
+		<activity
+			android:name=".presentation.SignupActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="@string/app_name"
+			android:exported="true"  >
+		</activity>
+
+		<!-- activity added for the login page  -->
+		<activity
+			android:name=".presentation.LoginActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="@string/app_name"
+			android:exported="true"  >
+		</activity>
+
+		<!-- activity added for the main page  -->
+		<activity
+			android:name=".presentation.MainPageActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="@string/app_name"
+			android:exported="true"  >
+		</activity>
+
+		<!-- activity added for the underConstruction page  -->
+		<activity
+			android:name=".presentation.UnderConstructionActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="@string/app_name"
+			android:exported="true"  >
+		</activity>
+
+		<!-- activity added for the CourseHistoryActivity page  -->
+		<activity
+			android:name=".presentation.CourseHistoryActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="@string/app_name"
+			android:exported="true"  >
+		</activity>
+
+		<!-- activity added for the UserProfileActivity page  -->
+		<activity
+			android:name=".presentation.UserProfileActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="@string/app_name"
+			android:exported="true"  >
+		</activity>
+
+		<!-- activity added for the ProfessorRatingMenuActivity page  -->
+		<activity
+			android:name=".presentation.ProfessorRatingActivityMain.ProfessorRatingMenuActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="@string/app_name"
+			android:exported="true"  >
+		</activity>
+
+		<!-- activity added for the Professor1RatingsActivity page  -->
+		<activity
+			android:name=".presentation.ProfessorRatingActivityMain.ProfessorRatingActivities.Professor1RatingsActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="@string/app_name"
+			android:exported="true"  >
+		</activity>
+
+		<!-- activity added for the Professor2RatingsActivity page  -->
+		<activity
+			android:name=".presentation.ProfessorRatingActivityMain.ProfessorRatingActivities.Professor2RatingsActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="@string/app_name"
+			android:exported="true"  >
+		</activity>
+
+		<!-- activity added for the Professor3RatingsActivity page  -->
+		<activity
+			android:name=".presentation.ProfessorRatingActivityMain.ProfessorRatingActivities.Professor3RatingsActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:label="@string/app_name"
+			android:exported="true"  >
+		</activity>
+
+		<!-- activity added for the SendReviewPopUpActivity page  -->
+		<activity
+			android:name=".presentation.ProfessorRatingActivityMain.SendReviewPopUpActivity"
+			android:theme="@style/AppTheme.CustomTheme">
+		</activity>
+
+	</application>
+
+</manifest>
+	
+	

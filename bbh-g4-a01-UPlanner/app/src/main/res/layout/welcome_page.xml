@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg_main_background">
+
+	<!-- Welcome Picture -->
+	<ImageView android:id="@+id/welcome_picture"
+		android:src="@drawable/welcome_picture"
+		android:contentDescription="welcome_picture"
+		android:layout_marginStart="412dp"
+		android:layout_marginTop="235dp"
+		android:layout_width="456dp"
+		android:layout_height="330dp" />
+
+	<!-- App Name -->
+	<TextView android:id="@+id/uplanner"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:textSize="85sp"
+		android:textColor="@color/main_text_color"
+		android:layout_marginLeft="372dp"
+		android:layout_marginTop="149dp"
+		android:layout_width="521dp"
+		android:layout_height="110.5dp"
+		android:text="@string/uplanner_string"
+		/>
+
+	<!-- Welcome Message-->
+	<TextView android:id="@+id/welcome_message"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:textSize="25sp"
+		android:textColor="@color/main_text_color"
+		android:layout_marginLeft="418dp"
+		android:layout_marginTop="119dp"
+		android:layout_width="444dp"
+		android:layout_height="37.5dp"
+		android:text="@string/welcome_message_string"
+		/>
+
+	<!-- Get Started Button that takes you to the CreateAnAccountPageActivity			-->
+	<Button
+		android:id="@+id/new_account_button"
+		android:background="@drawable/button_shape"
+		android:layout_marginTop="591dp"
+		android:layout_marginStart="460dp"
+		android:layout_width="360dp"
+		android:layout_height="75dp"
+		android:onClick="onGetStartedClick"
+		android:textStyle="bold"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:textSize="30sp"
+		android:textColor="@color/main_text_color"
+		android:text="@string/get_started_text_string"
+		android:textAllCaps="false"
+		/>
+
+	<!--Relative layout for the hyperlink to login page-->
+	<RelativeLayout android:id="@+id/log_in_hyperlink"
+		android:layout_marginTop="679dp"
+		android:layout_marginStart="525dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+
+		<ImageView android:id="@+id/line_1"
+			android:src="@drawable/line"
+			android:contentDescription="line_1"
+			android:layout_marginStart="2dp"
+			android:layout_marginTop="30dp"
+			android:layout_width="220dp"
+			android:layout_height="2dp"
+			/>
+
+		<TextView android:id="@+id/log_in_hyperlink_ek2"
+			android:textStyle="bold"
+			android:layout_gravity="center_horizontal|center"
+			android:gravity="center"
+			android:textSize="23sp"
+			android:textColor="@color/main_text_color"
+			android:layout_marginLeft="-4dp"
+			android:layout_width="239.3dp"
+			android:layout_height="30dp"
+			android:text="@string/log_in_hyperlink_ek2_string"
+			android:onClick="onGetStartedClick"/>
+			</RelativeLayout>
+</RelativeLayout>

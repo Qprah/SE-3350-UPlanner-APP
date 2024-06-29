@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bg_main_background_shape">
+
+<!--Rate My Professor Title-->
+<TextView android:id="@+id/professor_rating_title"
+    android:textSize="60sp"
+    android:textColor="@color/main_text_color"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="60dp"
+    android:layout_width="520dp"
+    android:layout_height="70.5dp"
+    android:textStyle="bold"
+    android:text="@string/course_rating_string" />
+
+
+<LinearLayout android:id="@+id/professor_list"
+    android:layout_marginTop="200dp"
+    android:layout_centerHorizontal="true"
+    android:layout_width="980dp"
+    android:layout_height="600dp"
+    android:orientation="vertical">
+
+    <RelativeLayout android:id="@+id/professor_1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="980dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_second_background_shape"
+        >
+
+        <TextView android:id="@+id/professor_1_title"
+            android:textSize="40sp"
+            android:textColor="@color/main_text_color"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:text="@string/professor_1_string" />
+
+        <Button android:id="@+id/view_professor1_button"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="830dp"
+            android:layout_height="50dp"
+            android:layout_width="130dp"
+            android:background="@drawable/secondary_button_shape"
+            android:textColor="@color/main_text_color"
+            android:text="@string/view_review_string"
+            />
+
+        <RatingBar
+            android:id="@+id/professor1_rating_bar"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="570dp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:theme="@style/RatingBar"
+            android:rating="5" />
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/professor_2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="980dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_second_background_shape"
+        >
+
+        <TextView android:id="@+id/professor_2_title"
+            android:textSize="40sp"
+            android:textColor="@color/main_text_color"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:text="@string/professor_2_string" />
+
+        <Button android:id="@+id/view_professor2_button"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="830dp"
+            android:layout_height="50dp"
+            android:layout_width="130dp"
+            android:background="@drawable/secondary_button_shape"
+            android:textColor="@color/main_text_color"
+            android:text="@string/view_review_string"
+            />
+
+        <RatingBar
+            android:id="@+id/professor2_rating_bar"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="570dp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:theme="@style/RatingBar"
+            android:rating="4.5" />
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/professor_3"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="980dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_second_background_shape"
+        >
+
+        <TextView android:id="@+id/professor_3_title"
+            android:textSize="40sp"
+            android:textColor="@color/main_text_color"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_width="500dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:text="@string/professor_3_string" />
+
+        <Button android:id="@+id/view_professor3_button"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="830dp"
+            android:layout_height="50dp"
+            android:layout_width="130dp"
+            android:background="@drawable/secondary_button_shape"
+            android:textColor="@color/main_text_color"
+            android:text="@string/view_review_string"
+            />
+
+        <RatingBar
+            android:id="@+id/professor3_rating_bar"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="570dp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:theme="@style/RatingBar"
+            android:rating="1" />
+    </RelativeLayout>
+</LinearLayout>
+
+<!--Back Button-->
+<Button
+    android:id="@+id/back_space_professor_rating_interface"
+    android:layout_marginTop="76dp"
+    android:layout_marginStart="67dp"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@drawable/bg_main_background_shape"
+    android:drawableStart="@drawable/back_space"
+    android:contentDescription="back_space_in_course_schedule"
+    android:text=""
+    android:onClick="onButtonClick"/>
+</RelativeLayout>

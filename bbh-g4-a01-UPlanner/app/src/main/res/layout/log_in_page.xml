@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg_main_background">
+
+	<!-- Log in picture -->
+	<ImageView android:id="@+id/log_in_picture"
+		android:src="@drawable/log_in_picture"
+		android:contentDescription="log_in_picture"
+		android:layout_marginStart="66dp"
+		android:layout_marginTop="185dp"
+		android:layout_width="515dp"
+		android:layout_height="429dp" />
+
+
+	<!--Relative layout for the email input component-->
+	<RelativeLayout android:id="@+id/email_input_component_container_container"
+		android:layout_marginTop="335dp"
+		android:layout_marginStart="772dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/bg_main_background"
+		>
+
+		<TextView android:id="@+id/email_label"
+			android:textSize="15sp"
+			android:textColor="@color/main_text_color"
+			android:layout_marginTop="1dp"
+			android:layout_width="136.5dp"
+			android:layout_height="22.5dp"
+			android:text="@string/email_label_string"
+			 />
+
+		<EditText
+			android:id="@+id/input_box_email"
+			android:layout_width="360dp"
+			android:layout_height="52.5dp"
+			android:layout_alignParentStart="true"
+			android:layout_marginTop="21.5dp"
+			android:background="@drawable/input_box_shape"
+			android:hint="@string/enter_your_email_string"
+			android:inputType="text"
+			android:paddingLeft="12dp"
+			android:textColor="@color/white"
+			android:textColorHint="@color/hint_input_color"
+			android:textSize="16sp" /> <!-- Added this line for left padding -->
+	</RelativeLayout>
+
+	<!--relative layout for the password input component-->
+	<RelativeLayout android:id="@+id/password_input_component_container"
+		android:layout_marginTop="424dp"
+		android:layout_marginStart="772dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/bg_main_background"
+		>
+
+		<TextView android:id="@+id/password_label"
+			android:textSize="15sp"
+			android:textColor="@color/main_text_color"
+			android:layout_marginTop="1dp"
+			android:layout_width="87.5dp"
+			android:layout_height="22.5dp"
+			android:text="@string/password_label_string"
+			 />
+
+
+		<EditText
+			android:id="@+id/input_box_password"
+			android:layout_width="360dp"
+			android:layout_height="52.5dp"
+			android:layout_alignParentStart="true"
+			android:layout_marginTop="21.5dp"
+			android:background="@drawable/input_box_shape"
+			android:hint="@string/enter_your_password_string"
+			android:inputType="textPassword"
+			android:paddingLeft="12dp"
+			android:textColor="@color/white"
+			android:textColorHint="@color/hint_input_color"
+			android:textSize="16sp" /> <!-- Added this line for left padding -->
+	</RelativeLayout>
+
+	<!--Login Button-->
+	<Button
+		android:id="@+id/log_in_button_ek4"
+		android:layout_marginTop="584dp"
+		android:layout_marginStart="772dp"
+		android:layout_width="359dp"
+		android:layout_height="62dp"
+		android:background="@drawable/button_shape"
+		android:onClick="onGetStartedClick"
+		android:textStyle="bold"
+		android:layout_gravity="center_horizontal|center"
+		android:gravity="center"
+		android:textSize="30sp"
+		android:textColor="@color/main_text_color"
+		android:text="@string/log_in__string"
+		android:textAllCaps="false"/>
+
+	<!--Back Button-->
+	<Button
+		android:id="@+id/back_space_in_log_in"
+		android:layout_marginTop="50dp"
+		android:layout_marginStart="41dp"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:background="@drawable/bg_main_background"
+		android:drawableStart="@drawable/back_space"
+		android:contentDescription="back_space_in_log_in"
+		android:text=""
+		android:onClick="onButtonClick"/>
+
+	<!--Relative layout for the welcome back text-->
+	<RelativeLayout android:id="@+id/welcome_back"
+		android:layout_marginTop="120dp"
+		android:layout_marginStart="769dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>
+
+		<TextView android:id="@+id/back_"
+			android:layout_gravity="center_horizontal|center"
+			android:gravity="center"
+			android:textSize="75sp"
+			android:shadowRadius="4"
+			android:shadowColor="#000000"
+			android:shadowDx="0"
+			android:shadowDy="4"
+			android:textColor="@color/main_text_color"
+			android:layout_marginLeft="56dp"
+			android:layout_marginTop="68dp"
+			android:layout_width="240dp"
+			android:layout_height="113.5dp"
+			android:text="@string/back__string"
+			 />
+
+		<TextView android:id="@+id/welcome"
+			android:layout_gravity="center_horizontal|center"
+			android:gravity="center"
+			android:textSize="75sp"
+			android:shadowRadius="4"
+			android:shadowColor="#000000"
+			android:shadowDx="0"
+			android:shadowDy="4"
+			android:textColor="@color/main_text_color"
+			android:layout_marginLeft="-13dp"
+			android:layout_marginTop="0dp"
+			android:layout_width="379dp"
+			android:layout_height="113.5dp"
+			android:text="@string/welcome_string"
+			 />
+	</RelativeLayout>
+</RelativeLayout>
+
